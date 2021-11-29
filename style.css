@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    height: 250px;
+    margin: 70px auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box1{
+    width: 250px;
+    background-image: url(team1.jpg);
+    background-size: cover;
+    border-radius: 9px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+.box1::after{
+    content: "";
+    display: block; 
+    position: absolute;
+    width: 270px;
+    height: 260px;
+    border-radius: 9px;
+    border: 5px solid #ffdacf;
+    top: -20px;
+    left: -15px;
+    overflow: hidden;
+}
+
+.box2{
+    width: 250px;
+    background-image: url(team2.jpg);
+    background-size: cover;
+    border-radius: 9px;
+    position: relative;
+}
+
+.box2::after{
+    content: "";
+    display: block; 
+    position: absolute;
+    width: 270px;
+    height: 260px;
+    border-radius: 9px;
+    border: 5px solid #bce9e5;
+    top: -20px;
+    left: -15px;
+}
+
+.box3{
+    width: 250px;
+    background-image: url(/team3.jpg);
+    background-size: cover;
+    border-radius: 9px;
+    position: relative;
+}
+
+.box3::after{
+    content: "";
+    display: block; 
+    position: absolute;
+    width: 270px;
+    height: 260px;
+    border-radius: 9px;
+    border: 5px solid #b2b3c3;
+    top: -20px;
+    left: -15px;
+}
+
+.box4{
+    width: 250px;
+    background-image: url(/team4.jpg);
+    background-size: cover;
+    border-radius: 9px;
+    position: relative;
+}
+
+.box4::after{
+    content: "";
+    display: block; 
+    position: absolute;
+    width: 270px;
+    height: 260px;
+    border-radius: 9px;
+    border: 5px solid #fed2e1;
+    top: -20px;
+    left: -15px;
+}
+.box1 .icon{
+    width: 60%;
+    position: absolute;
+    bottom: -40px;
+}
+.box1 .icon ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.box1 .icon a{
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    background-color: brown;
+    width: 34px;
+    height: 34px;
+    padding: 10px;
+    color: black;
+}
+
